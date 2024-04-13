@@ -8,7 +8,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 102vh;
     background-image: url("https://i.redd.it/zjgs096khv591.jpg");
     backdrop-filter: brightness(0.7); /* Adjust the brightness of the background image */
     background-size: cover; /* Adjusts the size of the background image */
@@ -41,6 +41,14 @@
 
 .first-page-content h3 {
     font-size: 2em;
+    font-weight: 700;
+}
+
+.landing-page-container hr {
+    width: 100%;
+    height: 0.5em;
+    border: none;
+    background-color: rgb(82, 80, 80);
 }
 
 .email-form {
@@ -64,5 +72,54 @@
     border-radius: 10px;
     padding: 5px 1em;
     border: none;
+    cursor: pointer;
     background-color: var(--primary-color);
+}
+
+.second-page-container {
+    display: flex;
+    padding: 4em 6%;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.second-page-container img {
+    height: 20em;
+    width: auto;
+    border-radius: 14px;
+}
+
+.second-page-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.second-page-info h2 {
+    font-size: 3em;
+}
+
+.third-page-container {
+    display: flex;
+    padding: 4em 6%;
+    gap: 1em    ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-page-container img {
+    height: 20em;
+    width: auto;
+    border-radius: 14px;
+}
+
+.third-page-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.third-page-info h2 {
+    font-size: 3em;
 }

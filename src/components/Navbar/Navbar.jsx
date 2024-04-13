@@ -1,5 +1,5 @@
 import "./navbar.css";
-import Netflix from "../../../public/netflix-backg.png";
+import Netflix from "/netflix-backg.png";
 import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
                             </NavLink>
                         </h1>
 
-                        <NavLink to="#" className="authBtn">Sign In</NavLink>
+                        <NavLink to="/home" className="authBtn">Sign In</NavLink>
                     </>
                 );
             case "/home":

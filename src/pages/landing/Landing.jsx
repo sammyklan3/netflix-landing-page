@@ -28,6 +28,24 @@ const Landing = () => {
                         <button type="submit"><h2>Get started</h2></button>
                     </form>
                 </div>
+                <hr />
+            </div>
+
+            <div className="second-page-container">
+                <div className="second-page-info">
+                    <h2>Enjoy on your TV</h2>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <img src="https://www.airband.co.uk/wp-content/uploads/2022/09/Netflix-on-TV.jpg" alt="netflix-on-tv" />
+            </div>
+            <hr />
+
+            <div className="third-page-container">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="netflix-on-tv" />
+                <div className="third-page-info">
+                    <h2>Download your shows to watch offline</h2>
+                    <p>Save your favorites easily and always have something to watch.</p>
+                </div>
             </div>
         </div>
     );
